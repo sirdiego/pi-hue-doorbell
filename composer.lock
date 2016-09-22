@@ -1,0 +1,159 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "fa5d1d32f161153b710879088b8207d6",
+    "content-hash": "de3530394d243aaa30092c5cc1794a9c",
+    "packages": [
+        {
+            "name": "calcinai/php-mmap",
+            "version": "v0.1.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/calcinai/php-mmap.git",
+                "reference": "68802f9be76696cf0e5e7db79f6788728d428477"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/calcinai/php-mmap/zipball/68802f9be76696cf0e5e7db79f6788728d428477",
+                "reference": "68802f9be76696cf0e5e7db79f6788728d428477",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "suggest": {
+                "ext-mmap": "Much more efficient native extension"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Calcinai\\MMap\\": "lib/MMap"
+                },
+                "files": [
+                    "lib/registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Calcinai",
+                    "email": "michael@calcin.ai"
+                }
+            ],
+            "description": "mmap for PHP",
+            "time": "2016-08-01 09:05:45"
+        },
+        {
+            "name": "calcinai/phpi",
+            "version": "v0.1.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/calcinai/phpi.git",
+                "reference": "21608d8b4d5216f6cb4f2ab0dc6b003555ed0a7d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/calcinai/phpi/zipball/21608d8b4d5216f6cb4f2ab0dc6b003555ed0a7d",
+                "reference": "21608d8b4d5216f6cb4f2ab0dc6b003555ed0a7d",
+                "shasum": ""
+            },
+            "require": {
+                "calcinai/php-mmap": "^0.1",
+                "php": ">=5.4.0",
+                "react/event-loop": "^0.4.1"
+            },
+            "suggest": {
+                "cboden/ratchet": "For realtime, bidirectional control from a web browser",
+                "ext-mmap": "Much more efficient native extension for accessing peripheral registers"
+            },
+            "bin": [
+                "bin/phpi"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Calcinai\\PHPi\\": "src/PHPi"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Calcinai",
+                    "email": "michael@calcin.ai"
+                }
+            ],
+            "description": "Event driven bindings for the Raspberry Pi GPIO",
+            "keywords": [
+                "GPIO",
+                "pi",
+                "pwm",
+                "raspberry",
+                "rpi",
+                "spi",
+                "websocket"
+            ],
+            "time": "2016-08-15 11:22:51"
+        },
+        {
+            "name": "react/event-loop",
+            "version": "v0.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reactphp/event-loop.git",
+                "reference": "164799f73175e1c80bba92a220ea35df6ca371dd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reactphp/event-loop/zipball/164799f73175e1c80bba92a220ea35df6ca371dd",
+                "reference": "164799f73175e1c80bba92a220ea35df6ca371dd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "suggest": {
+                "ext-event": "~1.0",
+                "ext-libev": "*",
+                "ext-libevent": ">=0.1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.5-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "React\\EventLoop\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Event loop abstraction layer that libraries can use for evented I/O.",
+            "keywords": [
+                "asynchronous",
+                "event-loop"
+            ],
+            "time": "2016-03-08 02:09:32"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
