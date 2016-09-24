@@ -1,5 +1,6 @@
 {
     "require": {
-        "calcinai/phpi": "^0.1.6"
+        "calcinai/phpi": "^0.1.6",
+        "guzzlehttp/guzzle": "^6.2"
     }
 }
