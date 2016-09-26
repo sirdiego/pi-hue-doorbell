@@ -1,6 +1,7 @@
 {
+    "prefer-stable": true,
     "require": {
-        "calcinai/phpi": "^0.1.6",
+        "calcinai/phpi": "dev-master",
         "guzzlehttp/guzzle": "^6.2"
     }
 }

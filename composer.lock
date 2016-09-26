@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3f4a6c62e6bbf5863be730de94ffa7e3",
-    "content-hash": "18b4c0813092212c47f12b40857e7f48",
+    "hash": "cd5d92ee0828fbda24efa5b724164b41",
+    "content-hash": "c22c8b9b3211a777594cc73043f15805",
     "packages": [
         {
             "name": "calcinai/php-mmap",
@@ -51,16 +51,16 @@
         },
         {
             "name": "calcinai/phpi",
-            "version": "v0.1.6",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/calcinai/phpi.git",
-                "reference": "21608d8b4d5216f6cb4f2ab0dc6b003555ed0a7d"
+                "reference": "a1ca2470f6294943e1ae412bce945942bfa2037a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/calcinai/phpi/zipball/21608d8b4d5216f6cb4f2ab0dc6b003555ed0a7d",
-                "reference": "21608d8b4d5216f6cb4f2ab0dc6b003555ed0a7d",
+                "url": "https://api.github.com/repos/calcinai/phpi/zipball/a1ca2470f6294943e1ae412bce945942bfa2037a",
+                "reference": "a1ca2470f6294943e1ae412bce945942bfa2037a",
                 "shasum": ""
             },
             "require": {
@@ -101,7 +101,7 @@
                 "spi",
                 "websocket"
             ],
-            "time": "2016-08-15 11:22:51"
+            "time": "2016-09-26 19:49:22"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -372,8 +372,10 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
-    "prefer-stable": false,
+    "stability-flags": {
+        "calcinai/phpi": 20
+    },
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": []
